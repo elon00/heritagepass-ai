@@ -1,0 +1,13 @@
+[package]
+name = "heritagepass_ai"
+version = "0.1.0"
+edition = "2021"
+description = "HeritagePass AI: National Tourism Digital Passes, Monument Access and Sustainable Tourism Credits"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
